@@ -4,7 +4,7 @@
 ## Overview
 
 This repository contains a complete end-to-end analysis for classifying  
-$(\mathrm{D}^{*+} \rightarrow \mathrm{D}^0 \pi^+\$ candidates into **prompt**, **non-prompt**, and **background** categories using **topological variables** derived from LHC data.
+$\mathrm{D}^{*+} \rightarrow \mathrm{D}^0 \pi^+\$ candidates into **prompt**, **non-prompt**, and **background** categories using **topological variables** derived from LHC data.
 
 The project combines **physics-motivated feature selection** with **machine learning (BDT)** techniques, following workflows commonly used in modern high-energy physics experiments.
 
@@ -73,9 +73,9 @@ These are studied for validation and interpretation only, to avoid bias.
   (Background / Non-prompt / Prompt)
 - **Train/Test split**: 70% / 30%
 - **Transverse momentum range**:
-  \[
+  $$
   6 < p_{\mathrm{T}} < 8\ \text{GeV}/c
-  \]
+  $$
 
 Exploratory data analysis and correlation studies are performed before training.
 
